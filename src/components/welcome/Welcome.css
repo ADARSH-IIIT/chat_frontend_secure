@@ -1,0 +1,81 @@
+.welcomepage{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+}
+
+.wcp1{
+    height: 100%;
+    width: 100%;
+    background-color: #eff3ef;
+   
+}
+
+
+.wcp11{
+    /* background-color: pink; */
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 40px;
+   
+}
+
+
+
+
+
+.wcp1>img{
+   
+
+    transform: scale(0.8);
+
+    border-radius: 40px;
+
+
+}
+
+
+@media screen and (max-width : 450px) {
+
+
+    .wcp1{
+        height: 100%;
+        width: 100%;
+    }
+
+    .wcp11{
+
+        font-size: 10px;
+    }
+
+
+    
+.wcp1>img{
+   
+
+    transform: scale(0.1);
+
+
+
+
+}
+    
+}
+
+
+
+.wcp11{
+    flex: 0.5;
+    width: 90%;
+    background-color: red;
+}
+
+
+.wcp12{
+    flex: 0.5;
+    width: 90%;
+    background-color: red;
+}
+ 
+  

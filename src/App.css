@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  width: 100vw ;
+  height:  100vh ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@800&family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@700;800&family=Roboto:wght@400;900&display=swap');
+
+
+
+.flex-row-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.flex-row-end{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.flex-coloumn-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-coloumn-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

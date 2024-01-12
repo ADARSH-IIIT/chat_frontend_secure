@@ -1,0 +1,244 @@
+.cp{
+    width: 100%;
+    background-color: #dddedd;
+    height: 100%;
+    gap: 5px;
+    /* flex: 0.8; */
+    /* border-radius: 0px 20px 20px 0px; */
+    background-color: #dddedd;
+}
+
+.cp1{
+    flex: 0.06;
+    width: 98%;
+    border-radius: 20px;
+
+    background-color: white;
+}
+
+.cp3{
+    flex: 0.06;
+    width: 98%;
+
+   
+}
+
+.cp2{
+
+    height: 85%;
+    width: 98%;
+    /* background-color: pink; */
+    overflow: scroll;
+
+    border-radius: 20px;
+}
+
+.cp21-{
+
+    width: 100%;
+    min-height: 100%;
+
+    background-color: white;
+ 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* flex-direction: column; */
+
+     /* background-color: pink; */
+
+}
+
+
+
+.cp21{
+    
+    width: 100%;
+    min-height: 100%;
+
+    background-color: white;
+ 
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: column;
+
+     /* background-color: red; */
+
+}
+
+
+
+
+
+.cp11{
+    flex: 0.2;
+    height: 80%;
+    /* background-color: green; */
+}
+
+.cp12{
+    flex: 0.6;
+    height: 80%;
+
+    /* background-color: aqua; */
+}
+
+.cp13{
+    /* background-color: red; */
+    flex: 0.2;
+}
+
+.cp11>div{
+    height: 35px;
+    width: 35px;
+    background-color: #dddedd;
+    border-radius: 50%;
+    font-family: roboto;
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+}
+
+
+.c121{
+    /* background-color: red; */
+    width: 100%;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: roboto;
+}
+
+.c122{
+    /* background-color: blue; */
+    width: 100%;
+
+}
+
+
+.cp31{
+
+    flex: 0.9;
+    /* background-color: red; */
+    height: 80%;
+
+}
+
+.cp31>input{
+    width: 95%;
+    height: 90%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.cp32{
+
+    flex: 0.1;
+    /* background-color: blue; */
+    height: 80%;
+
+}
+
+.cp32>.icon {
+    font-size: 40px;
+    color: navy;
+}
+
+.cp33>.icon{
+    font-size: 40px;
+}
+
+
+
+@media screen and (max-width : 450px) {
+
+    .cp11>div{
+        font-size: 20px;
+        height: 30px ;
+        width: 30px;
+    }
+
+    .cp32>.icon , .cp33>.icon{
+        font-size: 25px;
+    }
+    
+
+    .c121{
+
+        font-size: 15px;
+
+    }
+
+    .c122{
+
+        font-size: 10px;
+
+    }
+
+
+
+  
+
+
+}
+
+
+.bc{
+    /* background-color: red; */
+   
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: roboto;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+}
+
+
+.option>option{
+
+   font-size: 20px
+
+}
+
+select{
+    /* background-color: red; */
+    font-size: 20px;
+    
+    border: 0px;
+}
+
+
+@media screen and (max-width : 700px) {
+
+    select {
+        font-size: 20px;
+    }
+    
+
+    .option>option{
+
+        font-size: 20px
+     
+     }
+}
+
+
+@media screen and (max-width : 550px) {
+
+    select {
+        font-size: 15px;
+    }
+    
+
+    .option>option{
+
+        font-size: 15px ;
+        border: none;
+    
+     
+     }
+    
+}

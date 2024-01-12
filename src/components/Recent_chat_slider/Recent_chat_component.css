@@ -1,0 +1,120 @@
+.rcc{
+    background-color:  navy;
+    height: 95%;
+    width: 95%;
+    gap: 1%;
+}
+
+.rcc1{
+
+    background-color: navy;
+    width: 100%;
+    height: 8%;
+
+    /* background-color: red; */
+
+}
+
+.rcc2{
+    background-color: navy;
+    width: 100%;
+    height: 8%;
+
+}
+
+.rcc3{
+    /* background-color: yel; */
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    
+}
+
+.rcc11{
+    background-color: white;
+    height: 99%;
+    width: 99%;
+    border-radius: 20px;
+    gap: 15%;
+
+}
+
+.rcc12{
+    background-color: white;
+    height: 99%;
+    width: 99%;
+    border-radius: 20px;
+
+    
+
+}
+
+
+
+
+.icon1{
+    color: black;
+    font-size: 150% ;
+}
+
+
+.rcc121{
+
+    width: 80%;
+    height: 90%;
+    background-color: white;
+
+
+}
+
+.rcc122{
+
+    width: 10%;
+    height: 90%;
+
+    background-color: white;
+
+}
+
+.rcc-input{
+    height: 90%;
+    width: 95%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.rcc31{
+    /* background-color: #dddedd; */
+    width: 100%;
+    min-height: 100%;
+    gap: 1%;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width : 450px) {
+
+    .icon1{
+        font-size: 100%;
+    }
+
+    .rcc11{
+        gap: 10%;
+    }
+    
+}
+
+
+.nuf{
+    color: white;
+    font-weight: 600;
+    font-family: roboto;
+    font-size: 20px;
+}

@@ -1,0 +1,151 @@
+.chatinfo{
+    margin-top: 2%;
+    background-color: white;
+    width: 95%;
+    
+  min-height: 8%;
+    /* height: 20%; */
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    /* flex-direction: column; */
+
+    
+    
+   
+    
+}
+
+
+.pfpic{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+.logo{
+    flex: 0.2;
+    /* background-color: red; */
+    height: 80%;
+}
+
+.time{
+    flex: 0.2;
+    /* background-color: red; */
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.mssg{
+    flex: 0.8;
+    /* background-color: yellow; */
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* gap: 2%; */
+
+}
+
+
+.logo>div{
+    background-color: #dddedd;
+    /* background-color: red; */
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: roboto;
+
+}
+
+
+.time>div{
+    padding: 10px;
+    color: rgb(118, 113, 113);
+
+}
+
+.mssg>.a{
+    color: rgb(87, 80, 80);
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.mssg>.b{
+    color: rgb(106, 101, 101);
+    
+}
+
+@media screen and (max-width : 850px) {
+
+    .chatinfo{
+        /* background-color: red; */
+        height: 6%;
+        border-radius: 10px;
+    }
+
+    .mssg>.a{
+        font-size: 15px;
+    }
+
+    .mssg>.b{
+        font-size: 10px;
+    }
+
+    .time>div{
+        font-size: 10px;
+    }
+
+
+    .logo>div{
+        height: 25px;
+        width: 25px;
+        font-size: 20px;
+    }
+    
+}
+
+
+
+@media screen and (max-width : 450px) {
+
+    .mssg>.a{
+        font-size: 10px;
+    }
+
+    .mssg>.b{
+        font-size: 8px;
+    }
+
+
+    .logo>div{
+        height: 20px;
+        width: 20px;
+        
+    }
+    
+
+    .time>div{
+        padding: 2px;
+        font-size: 8px;
+    }
+
+
+}

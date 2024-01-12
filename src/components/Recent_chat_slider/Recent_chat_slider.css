@@ -1,0 +1,19 @@
+.drawerparent{
+    width: 0px;
+}
+
+.dp1{
+    width: 30vw;
+    background-color:  navy;
+    height: 100vh;
+}
+
+@media screen and (max-width : 450px) {
+
+    .dp1{
+        width : 80vw ;
+    
+    }
+
+ 
+}

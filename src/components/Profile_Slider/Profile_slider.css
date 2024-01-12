@@ -1,0 +1,31 @@
+.pfs{
+
+width: 0;
+
+}
+
+
+.pfs1{
+
+    /* background-color: red; */
+    width: 30vw;
+    height: 100vh;
+
+
+}
+
+@media screen and (max-width : 450px) {
+
+    .pfs1{
+  
+        width: 60vw;
+
+
+    }
+    
+}
+
+
+.pc11>img{
+    border-radius: 50%;
+}

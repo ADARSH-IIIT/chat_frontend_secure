@@ -1,0 +1,66 @@
+
+
+.register{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 80%;
+}
+
+.register1{
+    height: 5vh;
+    /* background-color: yellow; */
+    width: 98%;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.register2{
+    height: 40vh;
+    background-color: navy;
+    width: 98%;
+    gap: 5px;
+
+}
+
+.register3{
+    height: 5vh;
+    /* background-color: green; */
+    width: 98%;
+
+}
+
+
+.register21,.register22 , .register23 , .register24{
+    background-color: navy;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+
+.register21>input , .register22>input , .register23>input{
+
+    height: 100%;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    
+}
+
+.register24>button{
+    height: 80%;
+    width: 60%;
+}
+
+
+.redirector{
+    color: white;
+}

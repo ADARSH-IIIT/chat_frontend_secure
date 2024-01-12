@@ -1,0 +1,41 @@
+.sm{
+    background-color:  navy;
+    
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-end;
+    max-width: 40%;
+    
+    
+   
+}
+
+.sm>.mssg{
+    font-family: roboto;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.sm>.time{
+    align-self: flex-end;
+}
+
+
+@media screen and (max-width : 450px) {
+
+    .sm>.mssg{
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .sm>.time{
+        font-size: 8px;
+    }
+    
+
+    .sm{
+        max-width: 90%;
+    }
+}
